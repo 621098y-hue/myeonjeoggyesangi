@@ -1,5 +1,5 @@
 {
-  "name": "Pyeong Converter",
+  "name": "면적계산기",
   "description": "A clean and simple utility for converting between Pyeong and Square Meters.",
   "requestFramePermissions": []
 }

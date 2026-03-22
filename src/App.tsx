@@ -113,7 +113,7 @@ export default function App() {
                 >
                   <div className="flex justify-between items-end px-1">
                     <span className="text-sm font-medium text-[#4E5968]">
-                      {isReversed ? '제곱미터 (m²)' : '평 (Pyeong)'}
+                      {isReversed ? '제곱미터 (m²)' : '평수'}
                     </span>
                     <button 
                       onClick={() => copyToClipboard(isReversed ? m2 : pyeong, isReversed ? 'm2' : 'pyeong')}
@@ -165,7 +165,7 @@ export default function App() {
                 >
                   <div className="flex justify-between items-end px-1">
                     <span className="text-sm font-medium text-[#4E5968]">
-                      {isReversed ? '평 (Pyeong)' : '제곱미터 (m²)'}
+                      {isReversed ? '평수' : '제곱미터 (m²)'}
                     </span>
                     <button 
                       onClick={() => copyToClipboard(isReversed ? pyeong : m2, isReversed ? 'pyeong' : 'm2')}
