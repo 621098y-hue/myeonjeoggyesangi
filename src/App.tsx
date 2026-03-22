@@ -92,7 +92,7 @@ export default function App() {
             className="bg-white rounded-[32px] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white"
           >
             <div className="flex items-center justify-between mb-8">
-              <h2 className="text-xl font-bold text-[#333D4B]">평수 계산기</h2>
+              <h2 className="text-xl font-bold text-[#333D4B]">계산기</h2>
               <button 
                 onClick={resetPyeong}
                 className="p-2 text-[#8B95A1] hover:bg-[#F2F4F6] rounded-full transition-colors"
